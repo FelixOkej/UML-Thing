@@ -1,0 +1,44 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>6</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>450</x><y>252</y><w>126</w><h>78</h></coordinates><panel_attributes>Person
+--
+String Name
+int PersonalNumber
+int PhoneNumber
+List&lt;Email&gt; EmailAdresses
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>366</y><w>126</w><h>42</h></coordinates><panel_attributes>Employee
+--
+int BankAccountNumber
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>324</y><w>102</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>534</x><y>468</y><w>126</w><h>42</h></coordinates><panel_attributes>Core
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>468</y><w>126</w><h>42</h></coordinates><panel_attributes>Consultant
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>402</y><w>72</w><h>78</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>678</x><y>402</y><w>90</w><h>78</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>138</y><w>126</w><h>42</h></coordinates><panel_attributes>Contact
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>174</y><w>18</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>252</y><w>126</w><h>42</h></coordinates><panel_attributes>Applicant
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>180</y><w>126</w><h>42</h></coordinates><panel_attributes>BootCamper
+--
+Bool CourseCompleted
+List&lt;Result&gt; TestResult</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>222</x><y>174</y><w>204</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>320;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>228</x><y>174</y><w>228</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>180</y><w>126</w><h>42</h></coordinates><panel_attributes>Alumni
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>192</y><w>60</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>228</y><w>126</w><h>42</h></coordinates><panel_attributes>Client
+--
+List&lt;Contract&gt; Contracts
+String ContactAdress</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>150</y><w>126</w><h>60</h></coordinates><panel_attributes>Organization
+--
+int OrganizationNumber
+String Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>114</y><w>126</w><h>42</h></coordinates><panel_attributes>Salt
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>204</y><w>18</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>150</y><w>138</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>168</x><y>114</y><w>126</w><h>42</h></coordinates><panel_attributes>Test
+--
+String Name
+int Result
+String Comment</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>294</y><w>126</w><h>60</h></coordinates><panel_attributes>Contract
+--
+DateTime StartDate
+DateTime StopDate
+double HourlyRate
+String ConsultantName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>264</y><w>18</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>384</y><w>126</w><h>42</h></coordinates><panel_attributes>Email
+--
+String EmailAdress
+Current?</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>324</y><w>18</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>150</y><w>138</w><h>114</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>210;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>150</y><w>24</w><h>228</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;360;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>150</y><w>126</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>228</x><y>150</y><w>18</w><h>42</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
